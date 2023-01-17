@@ -13,32 +13,32 @@ import { addPlant } from "./field.js"
 export const plantSeeds = (planArray) => {
     for (const row of planArray) {
         for (const seed of row) {
-            if (seed === 'Asparagus') {
-                addPlant(createAsparagus())
-            }
-            if (seed === 'Wheat') {
-                addPlant(createWheat())
-            }
-            if (seed === 'Soybean') {
-                addPlant(createSoybean())
-            }
-            if (seed === 'Sunflower') {
-                addPlant(createSunflower())
-            }
-            if (seed === 'Corn') {
-                addPlant(createCorn())
-            } 
-            else if (seed === 'Potato') {
-                addPlant(createPotato())
-            }
+            // if (seed === 'Asparagus') {
+            //     addPlant(createAsparagus())
+            // }
+            // if (seed === 'Wheat') {
+            //     addPlant(createWheat())
+            // }
+            // if (seed === 'Soybean') {
+            //     addPlant(createSoybean())
+            // }
+            // if (seed === 'Sunflower') {
+            //     addPlant(createSunflower())
+            // }
+            // if (seed === 'Corn') {
+            //     addPlant(createCorn())
+            // } 
+            // else if (seed === 'Potato') {
+            //     addPlant(createPotato())
+            // }
             
-            //   seed.type === "Asparagus" ? addPlant(createAsparagus())
-            // : seed.type === "Wheat" ? addPlant(createWheat())
-            // : seed.type === "Soybean" ? addPlant(createSoybean()) 
-            // : seed.type === "Sunflower" ? addPlant(createSunflower())
-            // : seed.type === "Potato" ? addPlant(createPotato())
-            // : seed.type === "Corn" ?addPlant(createCorn())
-            // : null;
+              seed === "Asparagus" ? addPlant(createAsparagus())
+            : seed === "Wheat" ? addPlant(createWheat())
+            : seed === "Soybean" ? addPlant(createSoybean()) 
+            : seed === "Sunflower" ? addPlant(createSunflower())
+            : seed === "Potato" ? addPlant(createPotato())
+            : seed === "Corn" ?addPlant(createCorn())
+            : null;
         }
     }
 }
